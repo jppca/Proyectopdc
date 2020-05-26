@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Contacto-The Roy Barber</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/w3.css">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body class="w3-black">
+  <!--Menu-->
+  <!-- Icon Bar (Sidebar - hidden on small screens) -->
+  <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+    <a href="/" class="w3-bar-item w3-button w3-padding-large w3-black">
+      <i class="fa fa-home w3-xxlarge"></i>
+      <p>INICIO</p>
+    </a>
+
+    <a href="/serviciosproductos/index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="fa fa-handshake-o w3-xxlarge"></i>
+      <p>SERVICIOS & PRODUCTOS</p>
+    </a>
+    <a href="/contacto/index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="fa fa-envelope w3-xxlarge"></i>
+      <p>CONTACTO</p>
+    </a>
+    <a href="/login/" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="fa fa-user w3-xxlarge"></i>
+      <p>LOGIN</p>
+    </a>
+  </nav>
+
+  <!-- Navbar on small screens (Hidden on medium and large screens) -->
+  <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+    <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+      <a href="/" class="w3-bar-item w3-button" style="width:25% !important">INICIO</a>
+      <a href="/serviciosproductos/index.html" class="w3-bar-item w3-button" style="width:25% !important"><i class="fa fa-handshake-o"></i></a>
+      <a href="/contacto/index.html" class="w3-bar-item w3-button" style="width:25% !important"><i
+          class="fa fa-envelope"></i></a>
+      <a href="/login/" class="w3-bar-item w3-button" style="width:25% !important"><i class="fa fa-user"></i></a>
+    </div>
+  </div>
+
+  <!--inico de formulario de contacto-->
+  <div class="w3-padding-large" id="main">
+    <h2 style="text-align:center">*The Roy Barber*</h2>
+    <hr style="width:100%;" class="w3-opacity">
+    <div class="w3-padding-64 w3-content w3-text-white" id="contact">
+      <h2 class="w3-text-light-grey">Contactanos</h2>
+      <div class="w3-section">
+        <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Teléfono: 210 03 10</p>
+        <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: Roy_Barber@mail.com</p>
+      </div><br>
+      <p>Ponte en contacto y envianos un mensaje.</p>
+
+      <form action="/action_page.php" target="_blank">
+        <p><input class="w3-input w3-padding-16" type="text" style="border-radius:4px;" placeholder="Nombre" required
+            name="Nombre"></p>
+        <p><input class="w3-input w3-padding-16" type="email" style="border-radius:4px;" placeholder="Correo" required
+            name="email"></p>
+        <p><input class="w3-input w3-padding-16" type="text" style="border-radius:4px;" placeholder="Mensaje" required
+            name="Mensaje"></p>
+        <p>
+          <button class="w3-center" style="border-radius:4px; color:white; padding: 14px; background-color:#4CAF50; " type="submit">
+            <i class="fa fa-paper-plane"></i> Enviar Mensaje
+          </button>
+        </p>
+      </form>
+    </div>
+    <!-- Footer -->
+    <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge" style="height:120px; padding: 20px;">
+      <h3>Redes sociales</h3>
+      <a href="https://www.facebook.com/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+      <a href="https://www.instagram.com/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+      <a href=""><i class="fa fa-snapchat w3-hover-opacity"></i></a>
+      <a href=""><i class="fa fa-whatsapp w3-hover-opacity"></i></a>
+      <a href="https://twitter.com/"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+      <br>
+      <br>
+      <p class="w3-medium" style="text-align: center;">Desarrollado por JPPC con componentes propios y de <a
+          href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">
+          w3schools.com</a></p>
+      <!-- fin de footer -->
+    </footer>
+  </div>
+  <script defer src="/js/validadoremail.js"></script>
+</body>
+
+</html>
