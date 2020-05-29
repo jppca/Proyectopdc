@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" /><!--pendiente-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <style>
+        /* Make the image fully responsive */
+        .carousel-inner img {
+            width: 50%;
+            height: 10%;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/css/w3.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+</head>
+
+<body class="w3-black">
+    <!--Menu-->
+    <!-- Icon Bar (Sidebar - hidden on small screens) -->
+    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+        <a href="/" class="w3-bar-item w3-button w3-padding-large w3-black">
+            <i class="fa fa-home w3-xxlarge"></i>
+            <p>INICIO</p>
+        </a>
+
+        <a href="/serviciosproductos/index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-handshake-o w3-xxlarge"></i>
+            <p>SERVICIOS & PRODUCTOS</p>
+        </a>
+        <a href="/contacto/index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-envelope w3-xxlarge"></i>
+            <p>CONTACTO</p>
+        </a>
+        <a href="/login/" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-user w3-xxlarge"></i>
+            <p>LOGIN</p>
+        </a>
+    </nav>
+
+    <!-- Navbar on small screens (Hidden on medium and large screens) -->
+    <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+        <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+            <a href="/" class="w3-bar-item w3-button" style="width: 25% !important;">INICIO</a>
+            <a href="/serviciosproductos/index.html" class="w3-bar-item w3-button" style="width: 25% !important;"><i
+                    class="fa fa-handshake-o"></i></a>
+            <a href="/contacto/index.html" class="w3-bar-item w3-button" style="width: 25% !important;"><i
+                    class="fa fa-envelope"></i></a>
+            <a href="/login/" class="w3-bar-item w3-button" style="width: 25% !important;"><i
+                    class="fa fa-user"></i></a>
+        </div>
+    </div>
+    <div class="w3-padding-large" id="main">
+        <h2 style="text-align: center;">*The Roy Barber*</h2>
+        <hr style="width: 100%;" class="w3-opacity" />
+        <div class="w3-padding-64 w3-content w3-text-white" id="contact">
+            <h2 class="w3-text-light-grey">Galeria</h2>
+            <p>
+                Somos la mejor barberia siempre tratando de presentar los mejores
+                servicios y productos a nuestros clientes.
+            </p>
+            <div id="demo" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                    <li data-target="#demo" data-slide-to="3"></li>
+                </ul>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="mx-auto d-block" src="/img/imagenbarber.jpg" alt="Los Angeles" />
+                        <div class="carousel-caption">
+                            <h3>fffffffff</h3>
+                            <p>We had such a great time in LA!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="mx-auto d-block" src="/img/imagenbarber.jpg" alt="Chicago" />
+                        <div class="carousel-caption">
+                            <h3>ggggggggg</h3>
+                            <p>Thank you, Chicago!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="mx-auto d-block" src="/img/imagenbarber.jpg" alt="New York" />
+                        <div class="carousel-caption">
+                            <h3>Nrrrrrr</h3>
+                            <p>We love the Big Apple!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="mx-auto d-block" src="/img/imagenbarber.jpg" alt="New Yorkhh" />
+                        <div class="carousel-caption">
+                            <h3>New Yttttork</h3>
+                            <p>We love the Big Apple!</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge" style="height: 120px; padding: 20px;">
+            <h3>Redes sociales</h3>
+            <a href="https://www.facebook.com/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+            <a href=""><i class="fa fa-snapchat w3-hover-opacity"></i></a>
+            <a href=""><i class="fa fa-whatsapp w3-hover-opacity"></i></a>
+            <a href="https://twitter.com/"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+            <br />
+            <br />
+            <p class="w3-medium" style="text-align: center;">
+                Desarrollado por JPPC con componentes propios y de
+                <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">
+                    w3schools.com</a>
+            </p>
+            <!-- fin de footer -->
+        </footer>
+    </div>
+    <script defer src="/js/validadoremail.js"></script>
+</body>
+
+</html>
